@@ -9,6 +9,7 @@ $(document).ready(function() {
 
     display();
     btn.click(function () {
+        if(inp.val())
         makeRequest();
     });
 
