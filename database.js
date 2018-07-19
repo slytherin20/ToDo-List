@@ -1,7 +1,6 @@
 let pg = require('pg');
 const operations = require('./operations');
-let conString = process.env.ELEPHANTSQL_URL ||  "postgres://kllvkuli:d6bCkNqdB2Py3a-Iq-LmE5L9QS0TWojN@pellefant.db.elephantsql.com:5432/kllvkuli";
-
+let conString = process.env.ELEPHANTSQL_URL ||  "database link";
 let client = new pg.Client(conString);
 function connectDb(){
     client.connect();
