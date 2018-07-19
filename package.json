@@ -4,7 +4,6 @@
   "engines": {
     "node": "8.10.0"
   },
-
   "description": "",
   "main": "database.js",
   "scripts": {
@@ -12,5 +11,11 @@
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "pg": "^7.4.3",
+    "socket.io": "^2.1.1"
+  }
 }
