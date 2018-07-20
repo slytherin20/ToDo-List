@@ -49,6 +49,9 @@ input[type="text"]{
     margin-top:80px;
     overflow-y: auto;
 }
+placeholder{
+    color:gray;
+}
 li{ display:inline-block;
     width:100%;
     height:30px;
